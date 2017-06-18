@@ -1,5 +1,5 @@
 @charset "UTF-8";
-#wrapper {
+.wrapper {
 	/* customize_body */ font: 1.1em 'HelveticaNeue', sans-serif; /* customize_body */
 	text-align: justify;
 	color:#444444;
@@ -15,10 +15,10 @@
 #nav ul a:hover, #nav a:active {
 	/* customize_nav_hover_links */color: #C00;/* customize_nav_hover_links */
 }
-#wrapper a,#wrapper a:visited{
+.wrapper a, .wrapper a:visited{
 	/* customize_links */color:#690;/* customize_links */
 }
-#wrapper a:hover,#wrapper a:active {
+.wrapper a:hover, .wrapper a:active {
 	/* customize_hover_links */color: #C00;	/* customize_hover_links */
 }
 #full-content-sidebar h1, #full-content h1{
@@ -26,27 +26,27 @@
 	/* customize_header_1 */color: #F30;/* customize_header_1 */
 	line-height: 1em;
 }
-#wrapper h2{	
+.wrapper h2{	
 	/* customize_header_2 */font: 28px 'HelveticaNeue', sans-serif;/* customize_header_2 */
 	/* customize_header_2 */color: #F30;/* customize_header_2 */
 	line-height: 1em;
 }
-#wrapper h3{
+.wrapper h3{
 	/* customize_header_3 */font: 24px 'HelveticaNeue', sans-serif;/* customize_header_3 */
 	/* customize_header_3 */color: #C00;/* customize_header_3 */
 	line-height: 1em;
 	font-weight:300;
 }
-#wrapper h4{
+.wrapper h4{
 	/* customize_header_4 */font: 22px 'HelveticaNeue', sans-serif;/* customize_header_4 */
 	/* customize_header_4 */color: #C00;/* customize_header_4 */
 	line-height: 0.2em;
 	font-weight:300;
 }
-#wrapper h5{
+.wrapper h5{
 	/* customize_header_5 */color: #C00;/* customize_header_5 */
 }
-#wrapper h6{
+.wrapper h6{
 	/* customize_header_6 */color: #C00;/* customize_header_6 */
 }
 #side-right-wrap h3 {
