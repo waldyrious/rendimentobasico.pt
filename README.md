@@ -31,7 +31,8 @@ Os principais ficheiros que determinam a estrutura e a aparência das páginas s
 
 ### Metadados das páginas
 
-O Jekyll requer que todos as páginas em Markdown tenham um bloco de metadados no início, demarcados por três traços:
+O Jekyll [requer](https://help.github.com/articles/configuring-jekyll/#front-matter-is-required)
+que todas as páginas em Markdown tenham um bloco de metadados no início, demarcados por três traços:
 
 ```markdown
 ---
