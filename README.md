@@ -51,3 +51,33 @@ Estes dados podem ser omitidos, mas os demarcadores devem-se manter:
 
 Esta é uma página sem metadados associados, que usa o layout "default".
 ```
+
+### Testar alterações localmente
+
+Para a maior parte das alterações, bastará editar os ficheiros diretamente no browser,
+usando a interface web do GitHub.
+
+No entanto, alterações mais abrangentes
+[podem ser testadas localmente](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/),
+usando ferramentas da linha de comandos.
+
+Os passos para montar o site localmente (instruções para Ubuntu Linux) são os seguintes:
+
+* Instalar o Ruby e os pacotes de desenvolvimento necessários:
+  `sudo apt install ruby ruby-dev zlib1g-dev nodejs`
+* Instalar o Bundler:
+  `sudo gem install bundler`
+* Clonar o repositório do site e entrar na pasta:
+  `git clone https://github.com/waldyrious/rendimentobasico.pt.git && cd rendimentobasico.pt`
+* Instalar o Jekyll e restantes dependências do Github Pages:
+  `sudo bundle install`
+
+Estes passos preparatórios só têm que ser corridos uma vez.
+A partir de agora, para visualizar o site localmente, basta correr o comando
+
+    jekyll serve
+
+e abrir o endereço `localhost:4000` no browser. Para sair, usa-se o comando `Ctrl+C`.
+
+Alterações aos ficheiros originais (markdown) são automaticamente detectadas e o site atualizado.
+Este processo pode demorar alguns segundos.
