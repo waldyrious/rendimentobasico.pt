@@ -13,7 +13,14 @@ Isto permite várias vantagens:
 * facilidade na colaboração (alterações podem ser feitas diretamente na interface web do GitHub)
 * controlo de versões e backup de versões anteriores (pelo uso implícito do git)
 
-### Configuração
+### Metadados do site e tema visual
+
+A configuração básica do site encontra-se no ficheiro [_config.yml](https://github.com/waldyrious/rendimentobasico.pt/blob/master/_config.yml).
+
+Este ficheiro define parâmetros usados pelo Jekyll -- nomeadamente, o título e descrição do site, e o estilo visual,
+que neste caso é baseado no tema [minimal](https://github.com/pages-themes/minimal) do Github Pages.
+
+### Configuração da estrutura e aparência
 
 Os principais ficheiros que determinam a estrutura e a aparência das páginas são os layouts (templates HTML) e as folhas de estilo CSS.
 
@@ -22,9 +29,9 @@ Os principais ficheiros que determinam a estrutura e a aparência das páginas s
 * Os estilos disponíveis encontram-se na pasta `assets/css`. O estilo principal é o [assets/css/style.scss](https://github.com/waldyrious/rendimentobasico.pt/blob/master/assets/css/style.scss)
   As regras de estilos podem ser escritos quem em CSS quem em SCSS.
 
-### Metadados
+### Metadados das páginas
 
-O Jekyll requer que todos as páginas em Markdown tenham um bloco de metadados no início, demarcads por três traços:
+O Jekyll requer que todos as páginas em Markdown tenham um bloco de metadados no início, demarcados por três traços:
 
 ```markdown
 ---
