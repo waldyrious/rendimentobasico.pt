@@ -81,3 +81,8 @@ e abrir o endereço `localhost:4000` no browser. Para sair, usa-se o comando `Ct
 
 Alterações aos ficheiros originais (markdown) são automaticamente detectadas e o site atualizado.
 Este processo pode demorar alguns segundos.
+
+Em alternativa, pode ser usado o comando `jekyll build`,
+que gera o site de forma estática numa pasta chamada `_site`,
+que pode ser aberta no browser e navegada normalmente,
+sem iniciar um servidor local.
