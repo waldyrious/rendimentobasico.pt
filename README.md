@@ -65,6 +65,8 @@ Os passos para montar o site localmente são os seguintes:
 
 * [Ubuntu] Instalar o Ruby e os pacotes de desenvolvimento necessários:  
   `sudo apt install ruby ruby-dev zlib1g-dev nodejs`
+* (Opcional) Configurar o `gem` para fazer instalações mais rápidas:  
+  `echo -e "    install: --no-ri --no-rdoc\n    update: --no-ri --no-rdoc" >> ~/.gemrc`
 * Instalar o Bundler:  
   `sudo gem install bundler`
 * Clonar o repositório do site e entrar na pasta:  
