@@ -63,16 +63,16 @@ usando ferramentas da linha de comandos.
 
 Os passos para montar o site localmente são os seguintes:
 
-* [Ubuntu] Instalar o Ruby e os pacotes de desenvolvimento necessários.
+* [Ubuntu] Instalar o Ruby e os pacotes de desenvolvimento necessários:  
   `sudo apt install ruby ruby-dev zlib1g-dev nodejs`
-* Instalar o Bundler:
+* Instalar o Bundler:  
   `sudo gem install bundler`
-* Clonar o repositório do site e entrar na pasta:
+* Clonar o repositório do site e entrar na pasta:  
   `git clone https://github.com/waldyrious/rendimentobasico.pt.git && cd rendimentobasico.pt`
 * [macOS] Caso o `xz` tenha sido instalado via [Homebrew](https://brew.sh/),
-  instalar o Nokogiri manualmente:
+  instalar o Nokogiri manualmente:  
   `brew unlink xz && sudo gem install nokogiri && brew link xz`
-* Instalar o Jekyll e restantes dependências do Github Pages:
+* Instalar o Jekyll e restantes dependências do Github Pages:  
   `sudo bundle install`
 
 Estes passos preparatórios só têm que ser corridos uma vez.
