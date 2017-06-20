@@ -61,14 +61,17 @@ No entanto, alterações mais abrangentes
 [podem ser testadas localmente](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/),
 usando ferramentas da linha de comandos.
 
-Os passos para montar o site localmente (instruções para Ubuntu Linux) são os seguintes:
+Os passos para montar o site localmente são os seguintes:
 
-* Instalar o Ruby e os pacotes de desenvolvimento necessários:
+* [Ubuntu] Instalar o Ruby e os pacotes de desenvolvimento necessários.
   `sudo apt install ruby ruby-dev zlib1g-dev nodejs`
 * Instalar o Bundler:
   `sudo gem install bundler`
 * Clonar o repositório do site e entrar na pasta:
   `git clone https://github.com/waldyrious/rendimentobasico.pt.git && cd rendimentobasico.pt`
+* [macOS] Caso o `xz` tenha sido instalado via [Homebrew](https://brew.sh/),
+  instalar o Nokogiri manualmente:
+  `brew unlink xz && sudo gem install nokogiri && brew link xz`
 * Instalar o Jekyll e restantes dependências do Github Pages:
   `sudo bundle install`
 
