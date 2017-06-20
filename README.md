@@ -73,11 +73,13 @@ Os passos para montar o site localmente (instruções para Ubuntu Linux) são os
   `sudo bundle install`
 
 Estes passos preparatórios só têm que ser corridos uma vez.
-A partir de agora, para visualizar o site localmente, basta correr o comando
+(Periodicamente convém comando `bundle update` na pasta do site,
+para manter as dependências todas em dia.)
 
-    jekyll serve
-
-e abrir o endereço `localhost:4000` no browser. Para sair, usa-se o comando `Ctrl+C`.
+A partir de agora, **para lançar um servidor local e visualizar o site final,
+basta correr o comando `jekyll serve`
+e abrir o endereço `localhost:4000` no browser.**
+Para parar o servidor, usa-se o comando `Ctrl+C`.
 
 Alterações aos ficheiros originais (markdown) são automaticamente detectadas e o site atualizado.
 Este processo pode demorar alguns segundos.
