@@ -1,6 +1,8 @@
 ## O que é
 
+<div id="logo-rbi">
 <img src="assets/img/logo_RBI_COR_72dpi.png" alt="Logo RBI" width="350" />
+</div>
 
 O Rendimento Básico Incondicional é uma prestação atribuída a cada cidadão,
 independentemente da sua situação financeira, familiar ou profissional,
