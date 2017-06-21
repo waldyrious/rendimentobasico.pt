@@ -1,6 +1,6 @@
 ## O que é
 
-<img src="logo_RBI_COR_72dpi.png" alt="Logo RBI" width="500" />
+<img src="assets/img/logo_RBI_COR_72dpi.png" alt="Logo RBI" width="350" />
 
 O Rendimento Básico Incondicional é uma prestação atribuída a cada cidadão,
 independentemente da sua situação financeira, familiar ou profissional,
@@ -49,7 +49,7 @@ fazem parte das respetivas áreas de responsabilidade dos Estados Membros da Uni
 
 ## Saber mais sobre o Rendimento Básico
 
-Na página **[bibliografia](/bibliografia)** poderá encontrar livros, ensaios, relatórios de estudos e artigos académicos sobre o rendimento básico.
+Na página **[bibliografia](pages/bibliografia)** poderá encontrar livros, ensaios, relatórios de estudos e artigos académicos sobre o rendimento básico.
 
 Se preferir vídeo, pode assistir ao documentário "[O Rendimento Básico](http://www.youtube.com/watch?v=ExRs75isitw)" (2008),
 que explica a justificação económica, ética e histórica para a implementação de um rendimento básico.
