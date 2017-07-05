@@ -9,23 +9,64 @@ html { box-sizing: border-box; } *, *:before, *:after { box-sizing: inherit; }
 
 .wrapper
 {
-	header, #content-wrap,  footer
-	{
-		max-width: 600px;
-		margin: 0 auto;
-	}
-
-	#content-wrap
-	{
-		margin-top: 1.5em;
-		padding: 1.5em;
-		padding-top: 0;
-		border-left: 1px dotted #999;
-		border-right: 1px dotted #999;
-	}
+	display: grid;
+	grid-template-rows: 150px auto 150px;
+	grid-template-columns: 300px 600px 300px;
+	grid-template-areas:
+		".    header      ."
+		"nav   main   aside"
+		".    footer      .";
+	justify-content: center;
+	grid-gap: 1em;
 
 	#logo-rbi
 	{
 		text-align: center;
+	}
+
+	header, main, footer
+	{
+		justify-self: stretch;
+	}
+
+	header
+	{
+		grid-area: header;
+	}
+
+	main
+	{
+		grid-area: main;
+		padding: 0 1.5em;
+		border-left: 1px dotted #999;
+		border-right: 1px dotted #999;
+	}
+
+	footer
+	{
+		grid-area: footer;
+	}
+
+	nav
+	{
+		grid-area: nav;
+		justify-self: end;
+
+		ul {
+			list-style: none;
+			margin: 0;
+			text-align: right;
+		}
+	}
+
+	aside
+	{
+		grid-area: aside;
+		justify-self: start;
+
+		div
+		{
+			margin: 1em 0;
+		}
 	}
 }

@@ -17,16 +17,65 @@
         <h1><a href="/">Rendimento Básico</a></h1>
         <div id="tld">.pt</div>
       </header>
-      <section id="content-wrap">
-
-      {{ content }}
-
-      </section>
+      <main>
+        {{ content }}
+      </main>
+      <nav>
+        <ul>
+          <li><a href="/" class="nav-selected nav-path-selected">O que é</a></li>
+          <li><a href="pages/como/">Como financiar</a></li>
+          <li><a href="pages/implementacao/">Implementação</a></li>
+          <li><a href="pages/participar/">Junte-se a nós</a></li>
+          <li><a href="pages/eventos/">Eventos</a></li>
+          <li><a href="pages/sobre-nos/">Contactos</a></li>
+          <li><a href="pages/media/">RBI nos media</a></li>
+          <li><a href="pages/17-congresso-bien/">17º Congresso BIEN</a></li>
+          <li><a href="pages/17th-bien-congress/">17th BIEN Congress</a></li>
+          <li><a href="pages/associacao-rbi-p/">Associação RBI-P</a></li>
+        </ul>
+      </nav>
+      <aside>
+        <div id="peticao"></div>
+        <div class="mailing-list-signup">
+          <span>
+            Inscreva-se na lista de discussão por email
+            (<a href="https://groups.google.com/d/forum/rendimentobasico">arquivo online</a>):
+          </span>
+          <form action="http://groups.google.com/group/rendimentobasico/boxsubscribe">
+            <input type=text name=email id="email">
+            <input type=submit name="sub" value="Subscrever" class="btn btn-eu">
+          </form>
+        </div>
+        <div id="facebook-embed" class="fb-page" data-href="https://www.facebook.com/RendimentoBasicoPortugal" data-small-header="true" data-hide-cover="true" data-tabs="timeline">
+          <a class="fb-xfbml-parse-ignore" href="https://www.facebook.com/RendimentoBasicoPortugal">RBI Portugal no Facebook</a>
+        </div>
+        <div id="twitter-embed">
+          <a class="twitter-timeline" href="https://twitter.com/RBI_Portugal" data-widget-id="392021737782509569">@RBI_Portugal no Twitter</a>
+        </div>
+      </aside>
       <footer>
         <p>Rendimento Básico Portugal</p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+    <script>
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <script>
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'twitter-wjs'));
+    </script>
   </body>
 </html>
