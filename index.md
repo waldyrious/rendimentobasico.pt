@@ -66,9 +66,9 @@ para acesso offline, exibição, etc.
 
 Para mais informações sobre o rendimento básico, pode consultar:
 
-* Basic Income Earth Network: http://www.basicincome.org
-* Global Income Foundation: http://www.globalincome.org/
-* Wikipedia: https://en.wikipedia.org/wiki/Basic_income 
+* Basic Income Earth Network: <http://www.basicincome.org>
+* Global Income Foundation: <http://www.globalincome.org>
+* Wikipedia: <https://en.wikipedia.org/wiki/Basic_income>
 
 **Como apoiar**: Assine a [petição nacional](http://peticaopublica.com/pview.aspx?pi=PT71674)
 e divulgue o link aos seus amigos e conhecidos.
