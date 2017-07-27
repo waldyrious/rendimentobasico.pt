@@ -50,6 +50,9 @@ html { box-sizing: border-box; } *, *:before, *:after { box-sizing: inherit; }
 	{
 		grid-area: nav;
 		justify-self: end;
+		position: sticky;
+		top: 0;
+		height: calc(100vh - 1em);
 
 		ul {
 			list-style: none;
