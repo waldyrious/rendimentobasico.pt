@@ -62,7 +62,7 @@ O vídeo com legendas em português pode ser visualizado abaixo.
 Pode também fazer [download do vídeo](http://rendimentobasico.pt/grundeinkommen.zip) (600 MB)
 para acesso offline, exibição, etc.
 
-
+<iframe src="http://dotsub.com/media/26520150-1acc-4fd0-9acd-169d95c9abe1/embed/por_pt" width="560" height="315" frameborder="0"></iframe>
 
 Para mais informações sobre o rendimento básico, pode consultar:
 
