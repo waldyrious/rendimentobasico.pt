@@ -103,7 +103,7 @@ body {
 }
 
 /* ---------------------------------------------------------------------------------------------- */
-/* Navigation menu (sidebar)                                                                      */
+/* Navigation menu (left sidebar) & aside (right sidebar)                                         */
 /* ---------------------------------------------------------------------------------------------- */
 
 nav ul {
@@ -115,6 +115,11 @@ nav ul a:link, nav ul a:visited {
 }
 nav ul a:hover, nav ul a:active {
 	color: var(--rbi-red);
+	text-decoration: none;
+}
+
+aside #peticao a {
+	color: var(--rbi-orange);
 	text-decoration: none;
 }
 
