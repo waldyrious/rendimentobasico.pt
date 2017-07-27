@@ -108,13 +108,13 @@ body {
 nav ul {
 	font: normal normal 34px 'BebasNeue';
 }
-nav ul a:link, nav a:visited {
-	color:var(--rbi-green);
+nav ul a:link, nav ul a:visited {
+	color: var(--rbi-green);
 	text-decoration: none;
 }
-nav ul a:hover, nav a:active {
-	text-decoration: none;
+nav ul a:hover, nav ul a:active {
 	color: var(--rbi-red);
+	text-decoration: none;
 }
 
 /* ---------------------------------------------------------------------------------------------- */
