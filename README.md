@@ -7,17 +7,16 @@ Sistema experimental para alojar o site http://rendimentobasico.pt
 Este site é alojado através da plataforma Github Pages, que usa o sistema Jekyll para gerar páginas estáticas a partir de ficheiros markdown.
 
 Isto permite várias vantagens:
-* alojamento gratuito
-* estrutura transparente do site (sem código de servidor)
-* facilidade na escrita de conteúdo (formatação Markdown)
-* facilidade na colaboração (alterações podem ser feitas diretamente na interface web do GitHub)
-* controlo de versões e backup de versões anteriores (pelo uso implícito do git)
+* Alojamento gratuito
+* Estrutura transparente do site (sem código de servidor)
+* Facilidade na escrita de conteúdo (formatação Markdown)
+* Facilidade na colaboração (alterações podem ser feitas diretamente na interface web do GitHub)
+* Controlo de versões e backup de versões anteriores (graças uso implícito do git)
 
 ### Metadados do site e tema visual
 
-A configuração básica do site encontra-se no ficheiro [_config.yml](https://github.com/waldyrious/rendimentobasico.pt/blob/master/_config.yml).
-
-Este ficheiro define parâmetros usados pelo Jekyll -- nomeadamente, o título e descrição do site, e o estilo visual,
+A configuração básica do site encontra-se no ficheiro [\_config.yml](https://github.com/waldyrious/rendimentobasico.pt/blob/master/_config.yml).
+Este ficheiro define parâmetros usados pelo Jekyll — nomeadamente, o título e descrição do site, e o estilo visual,
 que neste caso é baseado no tema [minimal](https://github.com/pages-themes/minimal) do Github Pages.
 
 ### Configuração da estrutura e aparência
@@ -27,7 +26,7 @@ Os principais ficheiros que determinam a estrutura e a aparência das páginas s
 * Os layouts disponíveis encontram-se na pasta `_layouts`; de momento apenas um é usado, [_layouts/default.html](https://github.com/waldyrious/rendimentobasico.pt/blob/master/_layouts/default.html).
 
 * Os estilos disponíveis encontram-se na pasta `assets/css`. O estilo principal é o [assets/css/style.scss](https://github.com/waldyrious/rendimentobasico.pt/blob/master/assets/css/style.scss)
-  As regras de estilos podem ser escritos quem em CSS quem em SCSS.
+  As regras de estilos podem ser escritos quer em CSS quer em SCSS.
 
 ### Metadados das páginas
 
