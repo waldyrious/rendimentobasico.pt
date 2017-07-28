@@ -19,6 +19,12 @@ A configuração básica do site encontra-se no ficheiro [\_config.yml](https://
 Este ficheiro define parâmetros usados pelo Jekyll — nomeadamente, o título e descrição do site, e o estilo visual,
 que neste caso é baseado no tema [minimal](https://github.com/pages-themes/minimal) do GitHub Pages.
 
+O Jekyll dá acesso a estes metadados através de [variáveis](https://jekyllrb.com/docs/variables/),
+como `{{site.title}}` ou `{{site.theme}}`,
+que podem ser usadas em qualquer página do site, para construir links, títulos, etc.
+	
+Também existem [variáveis específicas do GitHub](https://help.github.com/articles/repository-metadata-on-github-pages/#available-repository-metadata), acessíveis através no domínio `site.hgithub`, como por exemplo `{{site.github.repository_url}}`.
+
 ### Configuração da estrutura e aparência
 
 Os principais ficheiros que determinam a estrutura e a aparência das páginas são os layouts (templates HTML) e as folhas de estilo CSS.
@@ -50,6 +56,14 @@ Estes dados podem ser omitidos, mas os demarcadores devem-se manter:
 
 Esta é uma página sem metadados associados, que usa o layout "default".
 ```
+
+Os dados das páginas podem ser acedidos através de variáveis do Jekyll — por exemplo: 
+- `{{page.title}}`
+- `{{page.layout}}`
+- `{{page.content}}`
+- `{{page.url}}`
+- `{{page.path}}`
+- etc.
 
 ### Testar alterações localmente
 
