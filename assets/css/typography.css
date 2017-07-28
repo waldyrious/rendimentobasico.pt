@@ -95,7 +95,7 @@ body {
 /* Links                                                                                          */
 /* ---------------------------------------------------------------------------------------------- */
 
-.wrapper a, .wrapper a:visited{
+.wrapper a, .wrapper a:visited {
 	color: var(--rbi-green);
 }
 .wrapper a:hover, .wrapper a:active {
