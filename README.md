@@ -4,7 +4,7 @@ Sistema experimental para alojar o site http://rendimentobasico.pt
 
 ## Detalhes de implementação
 
-Este site é alojado através da plataforma Github Pages, que usa o sistema Jekyll para gerar páginas estáticas a partir de ficheiros markdown.
+Este site é alojado através da plataforma GitHub Pages, que usa o sistema Jekyll para gerar páginas estáticas a partir de ficheiros markdown.
 
 Isto permite várias vantagens:
 * Alojamento gratuito
@@ -17,7 +17,7 @@ Isto permite várias vantagens:
 
 A configuração básica do site encontra-se no ficheiro [\_config.yml](https://github.com/waldyrious/rendimentobasico.pt/blob/master/_config.yml).
 Este ficheiro define parâmetros usados pelo Jekyll — nomeadamente, o título e descrição do site, e o estilo visual,
-que neste caso é baseado no tema [minimal](https://github.com/pages-themes/minimal) do Github Pages.
+que neste caso é baseado no tema [minimal](https://github.com/pages-themes/minimal) do GitHub Pages.
 
 ### Configuração da estrutura e aparência
 
@@ -73,7 +73,7 @@ Os passos para montar o site localmente são os seguintes:
 * [macOS] Caso o `xz` tenha sido instalado via [Homebrew](https://brew.sh/),
   instalar o Nokogiri manualmente:  
   `brew unlink xz && sudo gem install nokogiri && brew link xz`
-* Instalar o Jekyll e restantes dependências do Github Pages:  
+* Instalar o Jekyll e restantes dependências do GitHub Pages:  
   `sudo bundle install`
 
 Estes passos preparatórios só têm que ser corridos uma vez.
