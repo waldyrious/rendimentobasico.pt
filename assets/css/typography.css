@@ -132,3 +132,28 @@ aside #peticao a {
 	color: #999;
 	text-align: center;
 }
+
+/* ---------------------------------------------------------------------------------------------- */
+/* Edit button                                                                                    */
+/* ---------------------------------------------------------------------------------------------- */
+
+#edit-btn {
+	position: absolute;
+	top: 1rem; right: 1rem;
+
+	transform: scaleX(-1);
+
+	color: white;
+	background: var(--rbi-green);
+
+	font-size: 3em;
+	text-decoration: none;
+	padding: 0 0.3em;
+	border-radius: 50%;
+
+	opacity: 0.1;
+}
+
+#edit-btn:hover {
+	opacity: 1;
+}
